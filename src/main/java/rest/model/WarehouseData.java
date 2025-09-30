@@ -31,6 +31,7 @@ public class WarehouseData {
     /**
      * Constructor
      */
+
     public WarehouseData() {
         this.timestamp = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date());
     }
