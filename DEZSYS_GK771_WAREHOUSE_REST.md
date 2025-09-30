@@ -2,7 +2,7 @@ XML-Mapping mit Spring Boot und Jackson
 
 1. Abhängigkeit
 
-Zur Serialisierung von Java-Objekten nach XML wird die Bibliothek jackson-dataformat-xml benötigt.
+Zur Serialisierung von Java-Objekten nach XML wird eine Library wie z.B. jackson-dataformat-xml benötigt.
 
 Gradle (build.gradle.kts):
 
@@ -41,7 +41,7 @@ public class WarehouseData {
     @JacksonXmlProperty(localName = "product")  
     private Product[] productData;
     
-    // Öffentliche Getter für alle Felder sind erforderlich.
+    // Man braucht public Getter für alle Felder.
 }
 ```
 
